@@ -28,6 +28,7 @@ public class ListenerAutofiguration {
 //    @Bean
      //容器中不存在 Listener 类时会实例化 Listener 类
 //    @ConditionalOnMissingBean(Listener.class)
+      //读取配置文件中的属性，为true时才会实例化该类
 //    @ConditionalOnProperty(name = "listener.enabled", havingValue = "true", matchIfMissing = true)
 //    public Listener listener(){
 //        return new Listener();
